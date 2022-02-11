@@ -14,11 +14,13 @@ class column {
     int updateValues(int coulumnNumber) {
 
         for (int i; i < 9; i++) {
-
+            
             columnValues [i] = gameBoard [i][columnNumber]
         }
 
     }
+
+
 
 
 }
