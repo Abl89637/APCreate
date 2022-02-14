@@ -10,18 +10,15 @@ void gameBoard::randomBoard() {
     srand(time(0));
 
         int temp;
-        
-        for(i = 0; i < 9; i++) {
-                
-            temp = (rand() % 9) + 1;
-            if(isConflict(temp) == false) {
+        temp = (rand() % 9) + 1;
+        if(isConflict(temp) == false) {
 
-                
-
-            }
             
 
         }
+            
+
+        
 }
 
 void gameBoard::isConflict(int temp) {
@@ -39,4 +36,13 @@ void gameBoard::isConflict(int temp) {
             return false;
         }
     }
+}
+
+void gameBoard::pickSquare() {
+
+    srand(time(0));
+
+    
+
+
 }

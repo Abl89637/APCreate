@@ -11,6 +11,8 @@ class gameBoard {
     void randomBoard();
 
     void isConflict();
+
+    void pickSquare();
 }
 
 
