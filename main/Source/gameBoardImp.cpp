@@ -31,16 +31,27 @@ void gameBoard::isConflict(int temp) {
             return true;
         }
 
-        else {
-
-            return false;
-        }
+        
     }
+
+    return false;
 }
 
 void gameBoard::pickSquare() {
 
     srand(time(0));
+
+    row = rand()%3
+
+    
+
+
+}
+
+void gameBoard::showBoard() {
+
+    rows[rowNumber] = input;
+    rows[columnNumber] = input;
 
     
 
